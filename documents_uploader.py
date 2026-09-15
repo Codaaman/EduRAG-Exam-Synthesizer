@@ -14,7 +14,7 @@ os.environ["HF_HOME"] = 'D:/HuggingFace_cache'
 print(os.getenv("HF_HOME"))
 
 
-conection="postgresql+psycopg2://postgres:aman9935@localhost:5432/question_paper_vactor"
+conection="postgresql+psycopg2://postgres:PASSWORD@localhost:5432/question_paper_vactor"
 collection_name="q-pdf"
 
 reader=PdfReader("my_writeup-2.pdf")
